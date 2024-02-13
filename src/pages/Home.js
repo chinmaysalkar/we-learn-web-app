@@ -4,10 +4,11 @@ import Hero from '../components/Hero'
 import AppFeatures from '../components/AppFeatures'
 import Details from '../components/Details'
 import Gallery from '../components/Gallery'
-import Testimonials from '../components/Testimonials'
+// import Testimonials from '../components/Testimonials'
 import Contacts from '../components/Contacts'
-import Pricing from '../components/Pricing'
-import FAQ from '../components/FAQ'
+// import Pricing from '../components/Pricing'
+// import FAQ from '../components/FAQ'
+import Team from '../components/Team'
 import Footer from '../Layouts/Footer'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -45,6 +46,7 @@ export default function Home() {
     <AppFeatures/>
     <Details/>
     <Gallery/>
+    <Team/>
     {/* <Testimonials/> */}
     {/* <Pricing/> */}
     {/* <FAQ/> */}

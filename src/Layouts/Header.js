@@ -49,6 +49,7 @@ export default function Header() {
             <li><HashLink className="nav-link scrollto active"  to="#hero" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Home</HashLink></li>
             <li><HashLink className="nav-link scrollto"  to="#appfeatures" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>App Features</HashLink></li>
             <li><HashLink className="nav-link scrollto"  to="#gallery" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Gallery</HashLink></li>
+            <li><HashLink className="nav-link scrollto"  to="#team" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Team</HashLink></li>
             {/* <li><HashLink className="nav-link scrollto"  to="#pricing" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Pricing</HashLink></li> */}
             {/* <li><HashLink className="nav-link scrollto"  to="#faq" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>F.A.Q</HashLink></li> */}
 
