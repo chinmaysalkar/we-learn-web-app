@@ -8,7 +8,8 @@ body {
   }
   
   a {
-    color: #5777ba;
+    /* color: #5777ba; */
+    color: #e3256b;
     text-decoration: none;
   }
   
@@ -103,7 +104,8 @@ body {
   
   #header .logo h1 a,
   #header .logo h1 a:hover {
-    color: #5777ba;
+    /* color: #5777ba; */
+    color: #e3256b;
     text-decoration: none;
   }
   
@@ -160,12 +162,13 @@ body {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #5777ba;
+    /* color: #5777ba; */
+    color: #e3256b;
   }
   
   .navbar .getstarted,
   .navbar .getstarted:focus {
-    background: #5777ba;
+    background: #e3256b;
     color: #fff;
     padding: 12px 25px;
     margin-left: 30px;
@@ -214,7 +217,7 @@ body {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #5777ba;
+    color: #e3256b;
   }
   
   .navbar .dropdown:hover>ul {
@@ -315,7 +318,7 @@ body {
   .mobile-nav-open a:hover,
   .mobile-nav-open .active,
   .mobile-nav-open li:hover>a {
-    color: #5777ba;
+    color: #e3256b;
   }
   
   .mobile-nav-open .getstarted,
@@ -350,7 +353,7 @@ body {
   .mobile-nav-open .dropdown ul a:hover,
   .mobile-nav-open .dropdown ul .active:hover,
   .mobile-nav-open .dropdown ul li:hover>a {
-    color: #5777ba;
+    color: #e3256b;
   }
   
   .mobile-nav-open .dropdown>.dropdown-active {
@@ -580,7 +583,7 @@ section {
   .features .content .icon-box i {
     font-size: 48px;
     float: left;
-    color: #5777ba;
+    color: #e3256b;
   }
   
   .features .content .icon-box p {
@@ -664,11 +667,13 @@ section {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #5777ba;
+    /* border: 1px solid #5777ba; */
+    border: 1px solid #e3256b;
   }
   
   .gallery .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #5777ba;
+    /* background-color: #5777ba; */
+    background-color: #e3256b;
   }
   
   .gallery .swiper-slide-active {
@@ -692,7 +697,7 @@ section {
     }
   }
 /*--------------------------------------------------------------
-# Team
+                       Team
 --------------------------------------------------------------*/
 .team {
   background: #fff;
@@ -732,7 +737,8 @@ section {
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  /* color: #01036f; */
+  color: #6e4655;
   position: relative;
   padding-bottom: 10px;
 }
@@ -743,7 +749,7 @@ section {
   display: block;
   width: 50px;
   height: 1px;
-  background: #0d12fc;
+  background: #6e4655;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -752,7 +758,7 @@ section {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #6e4655;
 }
 
 .team .member .social {
@@ -761,11 +767,11 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #6e4655;
 }
 
 .team .member .social a:hover {
-  color: #1acc8d;
+  color: #e3256b;
 }
 
 .team .member .social i {
@@ -1234,7 +1240,7 @@ section {
     padding: 0;
     line-height: 1;
     font-weight: 600;
-    color: #47536e;
+    color: #7a5261;
   }
   
   #footer .footer-newsletter form {
@@ -1262,7 +1268,7 @@ section {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #5777ba;
+    background: #e3256b;
     color: #fff;
     transition: 0.3s;
     border-radius: 50px;
@@ -1343,7 +1349,7 @@ section {
   
   #footer .footer-top .footer-links ul a:hover {
     text-decoration: none;
-    color: #5777ba;
+    color: #e3256b;
   }
   
   #footer .footer-top .social-links a {
