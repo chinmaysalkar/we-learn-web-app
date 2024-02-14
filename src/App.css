@@ -380,7 +380,8 @@ body {
     width: 250%;
     height: 200%;
     z-index: -1;
-    background-color: #e8ecf5;
+    /* background-color: #e8ecf5; */
+    background-color: #f9e7ed;
     transform: skewY(135deg);
   }
   
@@ -652,7 +653,7 @@ section {
 
 .gallery {
     overflow: hidden;
-    background: #e9edf4;
+    /* background: #e9edf4; */
   }
   
   .gallery .swiper-slide {
