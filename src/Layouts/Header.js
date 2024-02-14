@@ -71,8 +71,13 @@ export default function Header() {
             to="#team"
             onClick={() => handleLinkClick('Team')}>Team</HashLink></li>
 
-            {/* <li><HashLink className="nav-link scrollto"  to="#pricing" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Pricing</HashLink></li> */}
-            {/* <li><HashLink className="nav-link scrollto"  to="#faq" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>F.A.Q</HashLink></li> */}
+            {/* <li><HashLink className=className={`nav-link scrollto ${activeLink === 'Pricing' ? 'active' : ''}`}
+            to="#pricing"
+            onClick={() => handleLinkClick('Team')}>Pricing</HashLink></li> */}
+
+            {/* <li><HashLink className={`nav-link scrollto ${activeLink === 'FAQ' ? 'active' : ''}`}
+            to="#faq"
+            onClick={() => handleLinkClick('Team')}>F.A.Q</HashLink></li> */}
 
             {/* <li className="dropdown"><a href="/"><span>Drop Down</span><FontAwesomeIcon icon={faChevronUp} className='mx-1'/></a>
               <ul>
