@@ -50,7 +50,7 @@ export default function Header() {
         <div className="logo">
           <h1><HashLink to="/">WeLearn</HashLink></h1>
           {/* Uncomment below if you prefer to use an image logo */}
-          {/* <a href="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid" /></a> */}
+          {/* <HashLink to="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid" /></HashLink> */}
         </div>
 
         <nav id="navbar " className={`navbar  ${mobileMenuOpen ? 'mobile-nav-open' : ''}`}>

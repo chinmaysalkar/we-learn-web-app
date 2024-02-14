@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { BiLogoTwitter, BiLogoFacebook, BiLogoLinkedin, BiLogoSkype, BiLogoInstagram,} from 'react-icons/bi';
+import { BiLogoTwitter, BiLogoFacebook, BiLogoLinkedin, BiLogoInstagram,} from 'react-icons/bi';
 import team1 from '../assets/Images/team/team-1.jpg'
 import team2 from '../assets/Images/team/team-2.jpg'
 import team3 from '../assets/Images/team/team-3.jpg'
