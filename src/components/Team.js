@@ -25,7 +25,7 @@ export default function Team() {
 
         <div className="row" data-aos="fade-left">
           {teamMembers.map((member, index) => (
-            <div className="col-lg-3 col-md-6" key={index}>
+            <div className="col-lg-3 col-md-6 mb-1" key={index}>
               <div className="member" data-aos="zoom-in" data-aos-delay={100 + 100 * index}>
                 <div className="pic">
                   <img src={member.imageSrc} className="img-fluid" alt="" />
