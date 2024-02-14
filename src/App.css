@@ -255,7 +255,8 @@ body {
 /* Mobile Navigation */
 
 .mobile-nav-toggle {
-    color: #47536e;
+    /* color: #47536e; */
+    color: #744c5a;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -651,6 +652,7 @@ section {
 
 .gallery {
     overflow: hidden;
+    background: #e9edf4;
   }
   
   .gallery .swiper-slide {
@@ -700,7 +702,8 @@ section {
                        Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  /* background: #fff; */
+  background: #e9edf4;
 }
 
 .team .member {
@@ -1161,7 +1164,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5777ba;
+  border-color: #e3256b;
 }
 
 .contact .php-email-form input {
@@ -1221,9 +1224,9 @@ section {
 #footer {
     background: #fff;
     padding: 0 0 2px 0;
-    color: #47536e;
+    color: #94888d;
     font-size: 14px;
-    background: #eff2f8;
+    background: #ffe9f1;
     /* background-color: rgba(227, 37, 96, 0.1) !important; */
   }
   
@@ -1276,7 +1279,7 @@ section {
   }
   
   #footer .footer-newsletter form input[type=submit]:hover {
-    background: #415f9d;
+    background: #e3256b;
   }
   
   #footer .footer-top {
@@ -1287,6 +1290,9 @@ section {
   #footer .footer-top .footer-contact {
     margin-bottom: 30px;
   }
+  #footer .footer-top .footer-contact h3{
+    color: #7a5261;
+  }
   
   #footer .footer-top .footer-contact h4 {
     font-size: 22px;
@@ -1294,7 +1300,7 @@ section {
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 700;
-    color: #47536e;
+    color: #7a5261;
   }
   
   #footer .footer-top .footer-contact p {
@@ -1302,13 +1308,13 @@ section {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Raleway", sans-serif;
-    color: #8a8c95;
+    color: #94888d;
   }
   
   #footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
-    color: #47536e;
+    color: #7a5261;
     position: relative;
     padding-bottom: 12px;
   }
@@ -1325,7 +1331,7 @@ section {
   
   #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #9fb2d8;
+    color: #d79fb3;
     font-size: 18px;
     line-height: 1;
   }
@@ -1341,7 +1347,7 @@ section {
   }
   
   #footer .footer-top .footer-links ul a {
-    color: #8a8c95;
+    color: #94888d;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
@@ -1380,14 +1386,14 @@ section {
   #footer .copyright {
     text-align: center;
     float: left;
-    color: #47536e;
+    color: #7a5261;
   }
   
   #footer .credits {
     float: right;
     text-align: center;
     font-size: 13px;
-    color: #47536e;
+    color: #7a5261;
   }
   
   @media (max-width: 768px) {

@@ -9,6 +9,15 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default function Header() {
 
 
+  const [activeLink, setActiveLink] = useState('Home');
+
+  const handleLinkClick = (linkName) => {
+    setActiveLink(linkName);
+    if (mobileMenuOpen) {
+      toggleMobileMenu();
+    }
+  };
+
   const [scrolled, setScrolled] = useState(false);
 
 
@@ -46,10 +55,22 @@ export default function Header() {
 
         <nav id="navbar " className={`navbar  ${mobileMenuOpen ? 'mobile-nav-open' : ''}`}>
           <ul>
-            <li><HashLink className="nav-link scrollto active"  to="#hero" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Home</HashLink></li>
-            <li><HashLink className="nav-link scrollto"  to="#appfeatures" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>App Features</HashLink></li>
-            <li><HashLink className="nav-link scrollto"  to="#gallery" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Gallery</HashLink></li>
-            <li><HashLink className="nav-link scrollto"  to="#team" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Team</HashLink></li>
+            <li><HashLink className={`nav-link scrollto ${activeLink === 'Home' ? 'active' : ''}`}
+            to="#hero"
+            onClick={() => handleLinkClick('Home')}>Home</HashLink></li>
+
+            <li><HashLink className={`nav-link scrollto ${activeLink === 'AppFeatures' ? 'active' : ''}`}
+            to="#appfeatures"
+            onClick={() => handleLinkClick('AppFeatures')}>App Features</HashLink></li>
+
+            <li><HashLink className={`nav-link scrollto ${activeLink === 'Gallery' ? 'active' : ''}`}
+            to="#gallery"
+            onClick={() => handleLinkClick('Gallery')}>Gallery</HashLink></li>
+
+            <li><HashLink className={`nav-link scrollto ${activeLink === 'Team' ? 'active' : ''}`}
+            to="#team"
+            onClick={() => handleLinkClick('Team')}>Team</HashLink></li>
+
             {/* <li><HashLink className="nav-link scrollto"  to="#pricing" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Pricing</HashLink></li> */}
             {/* <li><HashLink className="nav-link scrollto"  to="#faq" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>F.A.Q</HashLink></li> */}
 
@@ -71,7 +92,9 @@ export default function Header() {
               </ul>
             </li> */}
 
-            <li><HashLink className="nav-link scrollto" to="#contact" onClick={mobileMenuOpen ? toggleMobileMenu : undefined}>Contact</HashLink></li>
+            <li><HashLink className={`nav-link scrollto ${activeLink === 'Contact' ? 'active' : ''}`}
+            to="#contact"
+            onClick={() => handleLinkClick('Contact')}>Contact</HashLink></li>
 
             {/* <li><Link className="getstarted scrollto" to="/features">Get Started</Link></li> */}
 

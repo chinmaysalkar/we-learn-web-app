@@ -9,10 +9,10 @@ import team4 from '../assets/Images/team/team-4.jpg'
 
 export default function Team() {
     const teamMembers = [
-        { name: "Walter White", position: "Chief Executive Officer", imageSrc: team1 },
-        { name: "Sarah Jhonson", position: "Product Manager", imageSrc: team2 },
-        { name: "William Anderson", position: "CTO", imageSrc: team3 },
-        { name: "Amanda Jepson", position: "Accountant", imageSrc: team4 }
+        { name: "Walter White", position: "Chief Executive Officer", imageSrc: team1, twitter:" ", facebook:" ", instagram:" ",linkedin:" " },
+        { name: "Sarah Jhonson", position: "Product Manager", imageSrc: team2, twitter:" ", facebook:" ", instagram:" ",linkedin:" " },
+        { name: "William Anderson", position: "CTO", imageSrc: team3, twitter:" ", facebook:" ", instagram:" ",linkedin:" " },
+        { name: "Amanda Jepson", position: "Accountant", imageSrc: team4, twitter:" ", facebook:" ", instagram:" ",linkedin:" " }
       ];
   return (
     <>
@@ -34,10 +34,10 @@ export default function Team() {
                   <h4>{member.name}</h4>
                   <span>{member.position}</span>
                   <div className="social">
-                    <Link to={member.socialtwitter}><i className="bi bi-twitter"><BiLogoTwitter/></i></Link>
-                    <Link to={member.socialfacebook}><i className="bi bi-facebook"><BiLogoFacebook/></i></Link>
-                    <Link to={member.socialinstagram}><i className="bi bi-instagram"><BiLogoInstagram/></i></Link>
-                    <Link to={member.sociallinkedin}><i className="bi bi-linkedin"><BiLogoLinkedin/></i></Link>
+                    <Link to={member.twitter}><i className="bi bi-twitter"><BiLogoTwitter/></i></Link>
+                    <Link to={member.facebook}><i className="bi bi-facebook"><BiLogoFacebook/></i></Link>
+                    <Link to={member.instagram}><i className="bi bi-instagram"><BiLogoInstagram/></i></Link>
+                    <Link to={member.linkedin}><i className="bi bi-linkedin"><BiLogoLinkedin/></i></Link>
                   </div>
                 </div>
               </div>
