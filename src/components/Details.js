@@ -62,7 +62,7 @@ export default function Details() {
             <img src={details3} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5" data-aos="fade-up">
-            <h3>Multiple Tests and Test Result Analysis</h3>
+            <h3>Multiple Tests & Test Result Analysis</h3>
             
             <ul>
               {/* Multiple Tests Points */}
@@ -90,7 +90,7 @@ export default function Details() {
             <img src={details4} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Study Reminders  and  In-App Video Downloads</h3>
+            <h3>Study Reminders  &  In-App Video Downloads</h3>
             <ul>
               {/* Study Reminders Points  */}
               <li><i className="bi bi-check"><BiCheck /></i> Plan and organize study sessions, assignments, and assessments.</li>
