@@ -16,7 +16,7 @@ export default function AppFeatures() {
       <div className="container">
         <div className="section-title">
           <h2>App Features</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          {/* <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> */}
         </div>
 
         <div className="row no-gutters">
@@ -26,38 +26,52 @@ export default function AppFeatures() {
                 {/* Feature 1 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up">
                   <i className="bx bx-receipt"><BiReceipt /></i>                 
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Take Notes in between Lectures</h4>
+                  <p>Seamlessly note down important points or ideas without interrupting
+                  your video playback by simply clicking on the "Take Notes" button,
+                  ensuring uninterrupted learning & content consumption.</p>
                 </div>
                 {/* Feature 2 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                   <i className="bx bx-cube-alt"><BiCubeAlt /></i>                  
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>Discussion Forum</h4>
+                  <p>Stay connected with teachers through instant messaging within the
+                  app, facilitating quick communication, doubt solving and collaboration.
+                  </p>
                 </div>
                 {/* Feature 3 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                   <i className="bx bx-images"> <BiImage /></i>                
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>Multiple Tests</h4>
+                  <p>Access a wide variety of tests covering different topics & skill levels,
+                  providing students with ample opportunities to apply the learned
+                  concepts, test their knowledge and progress effectively.</p>
                 </div>
                 {/* Feature 4 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                   <i className="bx bx-shield"> <BiShield /></i>                
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                  <h4>Study Reminders</h4>
+                  <p>Plan and organize your learning sessions efficiently by scheduling study
+                    times, setting goals, and receiving reminders, empowering students to
+                    stay on track and maximize productivity.</p>
                 </div>
                 {/* Feature 5 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                   <i className="bx bx-atom"><BiAtom /></i>
-                  <h4>Molestiae dolor</h4>
-                  <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                  <h4>In-App Video Downloads</h4>
+                  <p>Easily save your favorite videos for offline viewing directly within the
+                    app, ensuring access to content even without an internet connection,
+                    perfect for on-the-go learning.
+                    </p>
                 </div>
                 {/* Feature 6 */}
                 <div className="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                   <i className="bx bx-id-card"><BiCard /></i> 
-                  <h4>Explicabo consectetur</h4>
-                  <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                  <h4>Test Result Analysis</h4>
+                  <p>Receive comprehensive insights into your test performance, including
+                    strengths, weaknesses, and areas for improvement, empowering
+                    students to make informed study decisions and track progress
+                    effectively.</p>
                 </div>
               </div>
             </div>

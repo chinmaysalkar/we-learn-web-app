@@ -24,20 +24,18 @@ export default function Details() {
             <img src={details1} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-4" data-aos="fade-up">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-            <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
+            <h3>Take Notes During Video Playback.</h3>
+           
             <ul>
-              <li><i className="bi bi-check"><BiCheck /></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bi bi-check"><BiCheck /></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i className="bi bi-check"><BiCheck /></i>  Iure at voluptas aspernatur dignissimos doloribus repudiandae.</li>
-              <li><i className="bi bi-check"><BiCheck /></i>  Est ipsa assumenda id facilis nesciunt placeat sed doloribus praesentium.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Take notes seamlessly while watching educational videos.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Enhance understanding by noting down key points and concepts.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Facilitates active learning and engagement during lessons.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Enables students to review and reinforce learning at their own pace.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Promotes effective study habits and retention of information.</li>
+
+
             </ul>
-            <p>
-              Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non. Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia
-            </p>
+            
           </div>
         </div>
 
@@ -47,19 +45,14 @@ export default function Details() {
             <img src={details2} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Corporis temporibus maiores provident</h3>
-            <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
-            <p>
-              Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati est nisi esse. Saepe aut dignissimos distinctio id enim.
-            </p>
+            <h3>Discussion Forum</h3>
+             <ul>
+              <li><i className="bi bi-check"><BiCheck /></i> Stay connected with teachers and peers within the learning environment.</li>         
+              <li><i className="bi bi-check"><BiCheck /></i> Facilitates peer-to-peer learning and support.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Access to teachers for quick communication and doubt resolution. </li>      
+              <li><i className="bi bi-check"><BiCheck /></i> Provides a sense of classroom and engagement among students.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Enhances the overall learning experience by fostering communication.</li>
+            </ul>
           </div>
         </div>
 
@@ -69,19 +62,25 @@ export default function Details() {
             <img src={details3} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5" data-aos="fade-up">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Multiple Tests and Test Result Analysis</h3>
+            
             <ul>
-              <li><i className="bi bi-check"><BiCheck /></i>  Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i className="bi bi-check"><BiCheck /></i>  Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i className="bi bi-check"><BiCheck /></i>  Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              {/* Multiple Tests Points */}
+              <li><i className="bi bi-check"><BiCheck /></i>  Access a variety of assessment formats, including quizzes, exams, and assignments.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Test comprehension, knowledge retention, and critical thinking skills.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Provides opportunities for self-assessment and progress tracking.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Offers a comprehensive evaluation of students' understanding and proficiency.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Promotes a well-rounded approach to learning and assessment.</li>
+
+              {/* Test Result Analysis  points */}
+              <li><i className="bi bi-check"><BiCheck /></i>  Receive detailed insights into test performance and areas of strength and improvement.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Identify weak areas and target them for further review and practice.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Track progress over time and monitor academic growth.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Provides actionable feedback to students for continuous improvement.</li>
+              <li><i className="bi bi-check"><BiCheck /></i>  Facilitates data-driven decision-making for educators and students alike.</li>
+
+
             </ul>
-            <p>
-              Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem. Et nihil magni debitis consequatur est.
-            </p>
-            <p>
-              Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum soluta explicabo vel fugiat eum non.
-            </p>
           </div>
         </div>
 
@@ -91,20 +90,21 @@ export default function Details() {
             <img src={details4} className="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
-            <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            <h3>Study Reminders  and  In-App Video Downloads</h3>
             <ul>
-              <li><i className="bi bi-check"><BiCheck /></i> Et praesentium laboriosam architecto nam .</li>
-              <li><i className="bi bi-check"><BiCheck /></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt consequatur. Aut repellat in numquam velit quo dignissimos et.</li>
-              <li><i className="bi bi-check"><BiCheck /></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              {/* Study Reminders Points  */}
+              <li><i className="bi bi-check"><BiCheck /></i> Plan and organize study sessions, assignments, and assessments.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Set personalized study goals and deadlines to stay on track.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Helps students manage their time effectively and prioritize tasks.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Allows for better time management and workload distribution.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Promotes accountability and discipline in academic pursuits.</li>
+
+              {/* In-App Video Downloads  Points*/}
+              <li><i className="bi bi-check"><BiCheck /></i> Download educational videos for offline viewing anytime, anywhere.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Overcome limitations of internet connectivity and access learning materials offline.</li>
+              <li><i className="bi bi-check"><BiCheck /></i> Enables flexibility in learning, especially in areas with limited internet access. </li>
+              <li><i className="bi bi-check"><BiCheck /></i> Ensures uninterrupted learning experience, even in remote or offline environments. </li>
+              <li><i className="bi bi-check"><BiCheck /></i> Enhances accessibility and convenience for students with varying learning needs. </li>
             </ul>
           </div>
         </div>

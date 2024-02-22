@@ -25,8 +25,10 @@ export default function Hero() {
         <div className="row">
             <div className="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1" data-aos="fade-up">
             <div>
-                <h1>App landing page template</h1>
-                <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
+                <h1>We Learn, We Excel</h1>
+                <h2>Dive into WeLearn, where each lesson is a steppingstone to
+                  greatness. Explore with us, as learning guides the way to
+                  success. Your journey to excellence starts here. </h2>
                 <Link to="" className="download-btn mb-3"><FontAwesomeIcon icon={faGooglePlay} /> Google Play</Link>
                 <Link to="" className="download-btn"><FontAwesomeIcon icon={faApple} /> App Store</Link>
             </div>
