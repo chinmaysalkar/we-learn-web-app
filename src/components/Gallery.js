@@ -60,18 +60,18 @@ export default function Gallery() {
             1280: { slidesPerView: 7, spaceBetween: 30 }
           }}
         >
-          <SwiperSlide><a href="assets/Images/gallery/gallery-1.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery1} className="img-fluid" alt="Gallery Image 1" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-2.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery2} className="img-fluid" alt="Gallery Image 2" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-3.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery3} className="img-fluid" alt="Gallery Image 3" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-4.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery4} className="img-fluid" alt="Gallery Image 4" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-5.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery5} className="img-fluid" alt="Gallery Image 5" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-6.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery6} className="img-fluid" alt="Gallery Image 6" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-7.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery7} className="img-fluid" alt="Gallery Image 7" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-8.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery8} className="img-fluid" alt="Gallery Image 8" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-9.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery9} className="img-fluid" alt="Gallery Image 9" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-10.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery10} className="img-fluid" alt="Gallery Image 10" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-11.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery11} className="img-fluid" alt="Gallery Image 11" /></a></SwiperSlide>
-          <SwiperSlide><a href="assets/Images/gallery/gallery-12.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery12} className="img-fluid" alt="Gallery Image 12" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-1.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery1} className="img-fluid" alt="GalleryImage 1" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-2.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery2} className="img-fluid" alt="GalleryImage 2" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-3.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery3} className="img-fluid" alt="GalleryImage 3" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-4.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery4} className="img-fluid" alt="GalleryImage 4" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-5.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery5} className="img-fluid" alt="GalleryImage 5" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-6.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery6} className="img-fluid" alt="GalleryImage 6" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-7.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery7} className="img-fluid" alt="GalleryImage 7" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-8.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery8} className="img-fluid" alt="GalleryImage 8" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-9.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery9} className="img-fluid" alt="GalleryImage 9" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-10.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery10} className="img-fluid" alt="GalleryImage 10" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-11.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery11} className="img-fluid" alt="GalleryImage 11" /></a></SwiperSlide>
+          <SwiperSlide><a href="assets/Images/gallery/gallery-12.png" className="gallery-lightbox" data-gall="gallery-carousel"><img src={gallery12} className="img-fluid" alt="GalleryImage 12" /></a></SwiperSlide>
         </Swiper>
       </div>
     </section>
