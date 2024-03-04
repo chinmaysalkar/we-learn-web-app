@@ -1,8 +1,18 @@
 import React from 'react'
-import { BiChevronRight, BiLogoTwitter, BiLogoFacebook, BiLogoLinkedin, BiLogoSkype, BiLogoInstagram,} from 'react-icons/bi';
+import { BiChevronRight, BiLogoLinkedin, BiLogoInstagram,} from 'react-icons/bi';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Footer() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+ 
+  
   return (
    <>
     <footer id="footer">
@@ -38,11 +48,11 @@ export default function Footer() {
             <div className="col-lg-4 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link to="#">Home</Link></li>
-                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link to="#">About us</Link></li>
-                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link to="#">Services</Link></li>
-                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link to="#">Terms of service</Link></li>
-                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link to="#">Privacy policy</Link></li>
+                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <HashLink to="/#hero">Home</HashLink></li>
+                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <HashLink to="/#appfeatures">AppFeatures</HashLink></li>
+                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <HashLink to="/#gallery">Gallery</HashLink></li>
+                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link onClick={scrollToTop} to="/termsofservices">Terms of service</Link></li>
+                <li><i className="bx bx-chevron-right"><BiChevronRight/></i> <Link onClick={scrollToTop} to="/privacypolicy">Privacy policy</Link></li>
               </ul>
             </div>
 
@@ -50,10 +60,10 @@ export default function Footer() {
               <h4>Our Social Networks</h4>
               <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
               <div className="social-links mt-3">
-                <Link to="/twitter" className="twitter"><i className="bx bxl-twitter"><BiLogoTwitter/></i></Link>
-                <Link to="/facebook" className="facebook"><i className="bx bxl-facebook"><BiLogoFacebook/></i></Link>
+                {/* <Link to="/twitter" className="twitter"><i className="bx bxl-twitter"><BiLogoTwitter/></i></Link> */}
+                {/* <Link to="/facebook" className="facebook"><i className="bx bxl-facebook"><BiLogoFacebook/></i></Link> */}
                 <Link to="/instagram" className="instagram"><i className="bx bxl-instagram"><BiLogoInstagram/></i></Link>
-                <Link to="googleplus" className="google-plus"><i className="bx bxl-skype"><BiLogoSkype/></i></Link>
+                {/* <Link to="googleplus" className="google-plus"><i className="bx bxl-skype"><BiLogoSkype/></i></Link> */}
                 <Link to="linkedin" className="linkedin"><i className="bx bxl-linkedin"><BiLogoLinkedin/></i></Link>
               </div>
             </div>

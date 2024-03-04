@@ -48,28 +48,26 @@ export default function Header() {
       <header id="header" className={`fixed-top ${scrolled ? 'header-scrolled' : 'header-transparent'}`}>
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
-          <h1><HashLink to="/">WeLearn</HashLink></h1>
-          {/* Uncomment below if you prefer to use an image logo */}
-          {/* <HashLink to="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid" /></HashLink> */}
+          <h1><Link to="/">WeLearn</Link></h1>
         </div>
 
         <nav id="navbar " className={`navbar  ${mobileMenuOpen ? 'mobile-nav-open' : ''}`}>
           <ul>
             <li><HashLink className={`nav-link scrollto ${activeLink === 'Home' ? 'active' : ''}`}
-            to="#hero"
+            to="/#hero"
             onClick={() => handleLinkClick('Home')}>Home</HashLink></li>
 
             <li><HashLink className={`nav-link scrollto ${activeLink === 'AppFeatures' ? 'active' : ''}`}
-            to="#appfeatures"
+            to="/#appfeatures"
             onClick={() => handleLinkClick('AppFeatures')}>App Features</HashLink></li>
 
             <li><HashLink className={`nav-link scrollto ${activeLink === 'Gallery' ? 'active' : ''}`}
-            to="#gallery"
+            to="/#gallery"
             onClick={() => handleLinkClick('Gallery')}>Gallery</HashLink></li>
 
-            <li><HashLink className={`nav-link scrollto ${activeLink === 'Team' ? 'active' : ''}`}
+            {/* <li><HashLink className={`nav-link scrollto ${activeLink === 'Team' ? 'active' : ''}`}
             to="#team"
-            onClick={() => handleLinkClick('Team')}>Team</HashLink></li>
+            onClick={() => handleLinkClick('Team')}>Team</HashLink></li> */}
 
             {/* <li><HashLink className=className={`nav-link scrollto ${activeLink === 'Pricing' ? 'active' : ''}`}
             to="#pricing"

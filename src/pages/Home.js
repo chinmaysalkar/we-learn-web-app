@@ -1,5 +1,4 @@
 import React,{useState, useEffect} from 'react'
-import Header from '../Layouts/Header'
 import Hero from '../components/Hero'
 import AppFeatures from '../components/AppFeatures'
 import Details from '../components/Details'
@@ -8,8 +7,7 @@ import Gallery from '../components/Gallery'
 import Contacts from '../components/Contacts'
 // import Pricing from '../components/Pricing'
 // import FAQ from '../components/FAQ'
-import Team from '../components/Team'
-import Footer from '../Layouts/Footer'
+// import Team from '../components/Team'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
@@ -41,17 +39,15 @@ export default function Home() {
 
   return (
     <>
-    <Header/>
     <Hero/>
     <AppFeatures/>
     <Details/>
     <Gallery/>
-    <Team/>
+    {/* <Team/> */}
     {/* <Testimonials/> */}
     {/* <Pricing/> */}
     {/* <FAQ/> */}
     <Contacts/>
-    <Footer/>
     <div
       className={`back-to-top ${isVisible ? 'active' : ''}`}
       style={{

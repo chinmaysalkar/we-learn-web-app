@@ -1,5 +1,5 @@
-import React, {useEffect} from 'react'
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import React from 'react'
+import { Pagination, Autoplay } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -8,11 +8,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-
-
-
- 
-
 
 
 import gallery1 from '../assets/Images/gallery/gallery-1.png'
@@ -36,16 +31,12 @@ export default function Gallery() {
 
   AOS.init();
 
-  
-
- 
-    
-    
+     
   return (
    <>
     <section id="gallery" className="gallery">
       <div className="container" data-aos="fade-up">
-        <div className="section-title">
+        <div className="section-title mt-3">
           <h2>Gallery</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
