@@ -8,6 +8,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Header() {
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+
 
   const [activeLink, setActiveLink] = useState('Home');
 
@@ -48,7 +53,10 @@ export default function Header() {
       <header id="header" className={`fixed-top ${scrolled ? 'header-scrolled' : 'header-transparent'}`}>
       <div className="container d-flex align-items-center justify-content-between">
         <div className="logo">
-          <h1><Link to="/">WeLearn</Link></h1>
+          <h1><Link to="/"  onClick={() => {
+            scrollToTop(); 
+            handleLinkClick('Home');
+          }} className={`nav-link scrollto ${activeLink === 'Home' ? 'active' : ''}`}>WeLearn</Link></h1>
         </div>
 
         <nav id="navbar " className={`navbar  ${mobileMenuOpen ? 'mobile-nav-open' : ''}`}>
